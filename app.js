@@ -17,7 +17,7 @@
       var itemCount = items.length;
       
       if ($scope.lunchItems.trim() === "") {
-        $scope.message = "Please enter data first";
+        $scope.message = "Please enter dish first";
       } else if (itemCount <= 3) {
         $scope.message = "Enjoy!";
       } else {
